@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,UAAU;AAChB,QAAQ,GAAG,CAAC","sources":["src/index.js"],"sourcesContent":["const message = \"i am amazing\"\r\nconsole.log(message)"],"names":[],"version":3,"file":"index.579125c3.js.map","sourceRoot":"/__parcel_source_root/"}
