@@ -1,11 +1,11 @@
 {
   "name": "gs-3",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://goitacademy.github.io/gs-3",
   "scripts": {
-    "start": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /gs-3/"
   },
   "repository": {
     "type": "git",
