@@ -20,5 +20,8 @@
   "homepage": "https://github.com/AndreyKapus/gs-3#readme",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.12.1"
   }
 }
