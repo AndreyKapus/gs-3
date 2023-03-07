@@ -560,11 +560,10 @@ function hmrAccept(bundle, id) {
 var throttle = require("528c35daba8bb358");
 var iframe = document.querySelector("iframe");
 var player = new Vimeo.Player(iframe);
-const lastSavedTime = localStorage.getItem("videoplayer-current-time");
-console.log(lastSavedTime);
+const lastSavedTime = localStorage.getItem("seconds");
 if (lastSavedTime) player.setCurrentTime(lastSavedTime);
 player.on("timeupdate", throttle(function(timeObj) {
-    localStorage.setItem("videoplayer-current-time", JSON.stringify(timeObj.seconds));
+    localStorage.setItem("seconds", JSON.stringify(timeObj.seconds));
 }, 1000));
 
 },{"528c35daba8bb358":"bGJVT"}],"bGJVT":[function(require,module,exports) {
